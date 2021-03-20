@@ -1,0 +1,24 @@
+body {
+    background-color: #CCC;
+}
+canvas {
+    background-color: #000;
+}
+#score {
+    position: absolute;
+    top: 280px;
+    left: 15px;
+    color: #FFd700;
+    height: 300;
+    width: 620;
+}
+#message {
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    height: 300;
+    width: 620;
+    color: #FFD700;
+    font:"Agency FB", "Arial", "Times New Roman";
+    font-size: 35px;
+}
