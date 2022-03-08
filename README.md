@@ -1,5 +1,5 @@
 # Colored Brick Attack
-Basic Brick attack game with a twist. Hit the spacebar to change the paddle color. The paddle will change the ball color. 
-The ball can only break same-colored bricks.
+Basic Brick attack game with a twist. 
+You can change the paddle color by hitting the space bar.
 
 ![demo](./demo.gif)
