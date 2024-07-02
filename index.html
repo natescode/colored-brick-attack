@@ -1,5 +1,48 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <style>
+            body {
+                background-color: #CCC;
+            }
+            canvas {
+                background-color: #000;
+            }
+            #score {
+                position: absolute;
+                top: 280px;
+                left: 15px;
+                color: #FFd700;
+                height: 300;
+                width: 620;
+            }
+            #message {
+                position: absolute;
+                top: 100px;
+                left: 200px;
+                height: 300;
+                width: 620;
+                color: #FFD700;
+                font:"Agency FB", "Arial", "Times New Roman";
+                font-size: 35px;
+            }
+        </style>
+        <title>Brick Attack</title>
+        <script src="lib/createjs-2013.05.14.min.js"></script>
+        <script src="lib/jquery-1.10.2.min.js"></script>
+        <!-- my Libraries -->
+        <script src="nge-1.0.3.js"></script>
+        <script src="Input.js"></script>
+    </head>
+    
+    <body>
+        <h1>Brick Attack!!!</h1>
+        <h2 id="score">Game Score</h2>
+        <textarea id="message"></textarea>
+        <canvas id="canvas" height="300" width="620">CANVAS NOT SUPPORTED GET CHROME OR FIREFOX</canvas>
+    </body>
+    <script>
+        var stage = new createjs.Stage("canvas");
   <head>
     <style>
       body {
@@ -36,7 +79,7 @@
   </head>
 
   <body>
-    <header id="score">Score</header>
+    <header id="score">Game Score</header>
     <aside id="message"></asid>
     <canvas id="canvas" height="300" width="620"
       >CANVAS NOT SUPPORTED GET CHROME OR FIREFOX</canvas
