@@ -151,7 +151,7 @@
       });
 
       stage.onMouseMove = function (ev) {
-        rect.x = event.clientX - rect.width / 2;
+        rect.x = ev.clientX - rect.width / 2;
       };
       stage.mouseMoveOutside = true;
 
